@@ -11,7 +11,7 @@ overview: generates two csv files (data/top_matchups.csv and data/top_teams.csv)
 *******************************************************************************/
 
 ## connect to production database	
-	$connection = new mysqli("tdmysql", "tddba", "d@t@4All", "sports");
+	$connection = new mysqli([connection credentials here]);
 	if ($connection->connect_errno) {
 		echo "Failed to connect to MySQL: (" . $connection->connect_errno . ") " . $connection->connect_error;
 	}
