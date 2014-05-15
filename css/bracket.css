@@ -1,0 +1,52 @@
+
+@media print{@page {size: landscape}}
+
+.slot, .slotnohover { width: 80px; height: 6px; padding: 1px 3px 5px 3px; border: 1px solid #eaeaea; font: 10px Arial; background-color: #f0f0f0; margin-bottom: 2px;  }
+.slot:hover { border: 1px solid #7ebee4; cursor: pointer; }
+.c2, .c10 { margin-bottom: 23px }
+.c3, .c9 { margin-bottom: 60px }
+.c3b, .c9b { margin-top: 70px; margin-bottom: -10px }
+.c4, .c8 { margin-bottom: 130px; }
+.c5, .c7 { margin-top: 135px; }
+.c6 { margin-bottom: 113px; text-align: center  }
+
+hr { color: #f00; border: 0; background-color: #ccc; height: 1px; width: 88px; margin-top: 3px; margin-bottom: 3px; }
+.spacer15 { height: 15px; }
+.spacer2 { height: 10px; }
+.spacer180 { height: 155px; }
+
+#col1 { float: left; }  
+#col2, #col3, #col4, #col5, #col6, #col7, #col8, #col9, #col10, #col11 { margin-left: 5px; float: left; }
+#col2, #col10 { position: relative; top:9px; }
+#col3, #col9 { position: relative; top:27px; }
+#col4, #col8 { position: relative; top:65px;  }
+#col5, #col8 { margin-left: -20px; z-index: 99; position: relative; }
+#col7 { margin-left: -40px; z-index: 100; position: relative; }
+#col6 { margin-left: -40px; position: relative; top: 160px; z-index: 130 }
+
+.vliner { border-right: 1px solid #ccc; }
+.vlinel { border-left: 1px solid #ccc; }
+#vlinec { background: url('../img/vlinec.gif') repeat-y center;}
+
+.winner { border: 1px solid #999; }
+.winner:hover { border: 1px solid #999; cursor: auto; }
+
+#thetitle { font: bold 18px Arial; position: absolute; text-align: center; left: 350px; top: -10px; z-index: 101 }
+#thetitle p.instruct { font: italic 11px Arial; color: #666; margin-top: -15px }
+#printbtn { padding: 5px; background-color: #000; color: #fff; font: 12px Arial; width: 80px; border-radius: 5px; margin-left: auto; margin-right: auto; }
+#printbtn:hover { background-color: #666; cursor: pointer; }
+
+#firstfour { width: 885px; border-top: 1px dotted #CCC; padding-top: 5px; position: relative; z-index: 110 }
+#firstfour .title { font: bold 13px Arial; text-align: center; margin: 0 0 5px 0;}
+#firstfour .subtitle { font: 10px Arial; margin: 0 0 3px 4px; color: #999;}
+.ffmodule { float: left; border-right: 1px dotted #ccc; padding-right: 10px; margin-right: 10px; }
+.ffcol1 { float: left; }
+.ffcol2 { float: left; margin: 8px 0 0 5px }
+
+.rlabel { position: absolute; font: bold 13px Arial; color: #999;}
+#r1 { top: 142px; left: 250px; }
+#r2 { top: 450px; left: 250px; }
+#r3 { top: 142px; left: 585px; }
+#r4 { top: 450px; left: 585px; }
+
+.rdate { font: 9px Arial; color: #999; margin-bottom: 3px }

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bracket Advisor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="css/cinderella.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+	  <script type="text/javascript" src="js/miso.ds.deps.min.0.4.1.js"></script>
+    <script src="js/cinderella.js"></script>
+    <script src="js/responsiveiframe.js"></script>
+
+    <script>
+      var ri = responsiveIframe();
+      ri.allowResponsiveEmbedding();
+    </script>
+
+   
+
+    <style>
+       #titlegraphic { background: url('img/title.jpg') center; width: 100%; height: 100px; margin-top: 35px; cursor: pointer }
+       #titlegraphic h1 { text-indent: -2000px }
+    </style>
+
+  </head>
+  
+  <body>
+   
+      <div class="container-fluid">
+
+      <div class="row-fluid">
+        
+        <div id="titlegraphic">
+            <h1>Bracket Advisor</h1>
+        </div>
+      
+        <div id="desc">
+
+           <p>Bracket Advisor helps compare how any two teams in the 2014 NCAA men's basketball tournament might fare against each other. Choose two teams, arrange the stats at left if you like, and click the "go" button. Looking for a bracket to make your picks? Go here: <a href="http://bracketadvisor.com/interactive-bracket/" target="_blank">Interactive Bracket </a></p>
+        </div>
+
+      </div>
+
+      <div class="row-fluid">
+        <div class="span3">
+
+          <div id="statsCon">
+    
+            <div id="statsAll" class="connectedSortable">
+             
+              <div class="imp">MORE IMPORTANT</div>
+              <div id="sortableStats">
+                <div id="a1" class="dragger"><input type="checkbox" id="a1" class="statsCheck" onchange="cbChanged(this,1);"><p>Seed</p></div>
+                <div id="a2" class="dragger"><input type="checkbox" id="a2" class="statsCheck" onchange="cbChanged(this,2);"><p>RPI</p></div>
+                <div id="a3" class="dragger"><input type="checkbox" id="a3" class="statsCheck" onchange="cbChanged(this,3);" ><p>Win percentage</p></div>
+                <div id="a4" class="dragger"><input type="checkbox" id="a4" class="statsCheck" onchange="cbChanged(this,4);"><p>Scoring margin</p></div>
+                <div id="a5" class="dragger"><input type="checkbox" id="a5" class="statsCheck" onchange="cbChanged(this,5);"><p>Rebound margin</p></div>
+                <div id="a6" class="dragger"><input type="checkbox" id="a6" class="statsCheck" onchange="cbChanged(this,6);"><p>Turnovers per game</p></div>
+                <div id="a7" class="dragger"><input type="checkbox" id="a7" class="statsCheck" onchange="cbChanged(this,7);"><p>Auto / At-large</p></div>
+                <div id="a8" class="dragger"><input type="checkbox" id="a8" class="statsCheck" onchange="cbChanged(this,8);" ><p>Conference</p></div>
+               </div>
+              <div class="imp">LESS IMPORTANT</div>
+              <div id="shorts">
+                <p><a href="#" id="selectAll">Select all</a></p>
+                <!--<p><a href="#" id="clearAll">Clear all</a></p>-->
+                <p><a href="#" id="reset">Reset</a></p>
+              </div>
+
+              <div style="clear:both"></div>
+            <div id="sharematch" class="btn"><p>Share this matchup</p></div>
+            </div>
+            
+          </div>
+        </div>
+
+         
+
+        <div class="span8 offset1" id="drops">
+            <div class="imp">SELECT TEAMS</div>
+            <select class="dd" id="dd1">
+            <option value="">Choose a team</option>
+            </select>
+           
+            <div class="imp">VS</div>
+           
+            <select class="dd" id="dd2">
+            <option value="">Choose a team</option>
+			</select>
+		        <a name="moduleanchor"></a>
+            <p><a class="btn btn-large btn-warning" id="gobtn">GO</a></p>
+
+            <div id="teamModules" class="module">
+            
+              <div class="main">
+                
+                <div class="team1 teamModule span5">
+                  <div class="teamInfo">
+                    <img class="teamLogo" src="img/templogo.gif" />
+                    <div class="teamInfoText">
+                      <!--div class="cityName">asdsa</div-->
+                      <div class="teamName">Team 1</div>
+                      <div class="conference teamData">CONF</div>
+                      <div class="record teamData">00-00</div>
+                    </div>
+                  </div>
+                  <div class="teamStatsCon">
+                    <div class="teamStat"><div class="teamStatTxt">Seed</div> <div class="seed teamStatNum"></div></div>
+                    <div class="teamStat alt"><div class="teamStatTxt">RPI</div> <div class="rpi teamStatNum"></div></div>
+                    <div class="teamStat"><div class="teamStatTxt">Win percentage</div> <div class="winperc teamStatNum"></div></div>
+                    <div class="teamStat alt"><div class="teamStatTxt">Scoring margin</div> <div class="scr_mar teamStatNum"></div></div>
+                    <div class="teamStat"><div class="teamStatTxt">Rebound margin</div> <div class="reb_mar teamStatNum"></div></div>
+                    <div class="teamStat alt"><div class="teamStatTxt">Turnovers/game</div> <div class="turnover teamStatNum"></div></div>
+                    <div class="teamStat"><div class="berth teamStatTxt">Berth</div> <div class="teamStatNum">&nbsp;</div></div>
+                  </div>
+                  
+                  <div class="calcCon">
+                    <div class="numBox">0%</div>
+                    <div class="numBoxLabel">win probability</div>
+                  </div>
+                
+                </div>
+                
+
+
+                <div class="team2 teamModule span5 offset2">
+                  <div class="teamInfo">
+                    <img class="teamLogo" src="img/templogo.gif" />
+                    <div class="teamInfoText">
+                      <!--div class="cityName">asdsa</div-->
+                      <div class="teamName">Team 2</div>
+                      <div class="conference teamData">CONF</div>
+                      <div class="record teamData">00-00</div>
+                    </div>
+                  </div>
+                  <div class="teamStatsCon">
+                    <div class="teamStat"><div class="teamStatTxt">Seed</div> <div class="seed teamStatNum"></div></div>
+                    <div class="teamStat alt"><div class="teamStatTxt">RPI</div> <div class="rpi teamStatNum"></div></div>
+                    <div class="teamStat"><div class="teamStatTxt">Win percentage</div> <div class="winperc teamStatNum"></div></div>
+                    <div class="teamStat alt"><div class="teamStatTxt">Scoring margin</div> <div class="scr_mar teamStatNum"></div></div>
+                    <div class="teamStat"><div class="teamStatTxt">Rebound margin</div> <div class="reb_mar teamStatNum"></div></div>
+                    <div class="teamStat alt"><div class="teamStatTxt">Turnovers / game</div> <div class="turnover teamStatNum"></div></div>
+                    <div class="teamStat"><div class="berth teamStatTxt">Berth</div> <div class="teamStatNum">&nbsp;</div></div>
+                  </div>
+                  
+                  <div class="calcCon">
+                    <div class="numBox">0%</div>
+                    <div class="numBoxLabel">win probability</div>
+                  </div>
+
+                </div>
+                
+              </div>
+            
+              
+            </div> <!--END MODULE-->
+            
+
+        </div>
+      
+
+      </div>
+
+      <div class="row-fluid section">
+          <div class="btn"><a href="javascript:showEmbedWell();">Embed this</a></div>
+
+          <div class="btn"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.bracketadvisor.com&text=Need%20an%20edge%20in%20your%20NCAA%20Tournament%20bracket%20pool?%20Bracket%20Advisor%20is%20here%20to%20help.%20http%3A%2F%2Fwww.bracketadvisor.com&via=BracketAdvisor" target="_blank"><img src="img/twitter-bird.png"/></a></div>
+          
+          <div class="btn"><a href="http://www.facebook.com/sharer/sharer.php?t=Bracket%20Advisor&u=http%3A%2F%2Fbracketadvisor.com%2F" target="_blank"><img src="img/fb-logo.png"/></a></div>
+
+          <p style="float: right; margin-top: 8px;">Follow us on Twitter <a href="https://twitter.com/BracketAdvisor" target="_blank">@BracketAdvisor</a>
+          
+          <div class="well" id="embedwell">
+            <div id="closebtn"></div>
+            <p><strong>Emded this on your site</strong></p>
+            <p>&lt;iframe src='http://data.digitalfirstmedia.com/ncaa2013/bracketadvisor/app.html' width='100%' height='1000' frameborder='0' scrolling='no' &gt;&lt;/iframe&gt;</p>
+          </div>
+      </div>
+
+      <div class="row-fluid section" id="leaderboard">
+        <div class="span4">
+          <p class="statsHead">Most viewed matchups</p>
+          <ul id="LBtopmatchups">
+          </ul>
+        </div>
+        <div class="span4">
+          <p class="statsHead">Most used teams</p>
+          <ul id="LBtopteams1">
+           </ul>
+        </div>
+        <div class="span4">
+          <p class="statsHead">&nbsp;</p>
+          <ul id="LBtopteams2">
+          </ul>
+        </div>
+
+      </div>
+      
+      <div id="holding"></div>
+
+      <div id="exp" class="section">
+      
+        <p class="desc">How it works: The Advisor compares teams in the 2014 tournament field to teams from the last 11 NCAA tournaments, and projects their chance of beating another team in a matchup.</p>
+        <p class="desc">Based on the way the Advisor operates, a team that fared better in one category than another will not necessarily be more likely to win. (For example, NCAA tournament teams ranked No. 2 in RPI have fared slightly better in the past 11 tournaments than teams ranked No. 1 in RPI.)</p>
+
+      </div>
+
+      <div id="sourceCreds">
+        Credits: Ross Maghielse, Peggy Bustamante, Nelson Hsu, Gary Kicinski / DFM
+      </div>
+
+    </div> <!-- /container custom -->
+
+    
+    <script src="js/bootstrap.min.js"></script>
+        
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37303540-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  
+  </body>
+</html>

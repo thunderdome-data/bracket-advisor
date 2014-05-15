@@ -1,0 +1,391 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <title>2013 NCAA Tournament Bracket - Digital First Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="google" value="notranslate" />
+  <meta http-equiv="Content-Language" content="en" />
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  
+  <link href="http://data.digitalfirstmedia.com/ncaa2013/bracketadvisor/css/bracket.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="thetitle">
+    <p>2013 NCAA<br /> Tournament Bracket<p>
+    <p class="instruct">Click the teams to advance to next round<p>
+    <div id="printbtn">Print Bracket</div>
+  </div>
+
+  <div id="r1" class="rlabel">MIDWEST</div>
+  <div id="r2" class="rlabel">WEST</div>
+  <div id="r3" class="rlabel">SOUTH</div>
+  <div id="r4" class="rlabel">EAST</div>
+
+  <div id="col1">
+    <div class="slot" data-col="1" data-game="1">(1) Louisville</div>
+    <div id="ff1" class="slot" data-col="1" data-game="1">(16) NC A&T</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="2">(8) Colorado St</div>
+    <div class="slot" data-col="1" data-game="2">(9) Missouri</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="3">(5) OK St</div>
+    <div class="slot" data-col="1" data-game="3">(12) Oregon</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="4">(4) St. Louis</div>
+    <div class="slot" data-col="1" data-game="4">(13) N.M. State</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="5">(6) Memphis</div>
+    <div id="ff2" class="slot" data-col="1" data-game="5">(11) St. Mary's</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="6">(3) Mich St</div>
+    <div class="slot" data-col="1" data-game="6">(14) Valpo</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="7">(7) Creighton</div>
+    <div class="slot" data-col="1" data-game="7">(10) Cincinnati</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="8">(2) Duke</div>
+    <div class="slot" data-col="1" data-game="8">(15) Albany</div>
+    
+
+    <div class="spacer15"></div>
+
+    <div class="slot" data-col="1" data-game="9">(1) Gonzaga</div>
+    <div class="slot" data-col="1" data-game="9">(16) Southern</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="10">(8) Pitt</div>
+    <div class="slot" data-col="1" data-game="10">(9) Wichita St</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="11">(5) Wisconsin</div>
+    <div class="slot" data-col="1" data-game="11">(12) Ole Miss</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="12">(4) Kansas St</div>
+    <div id="ff3" class="slot" data-col="1" data-game="12">(13) LaSalle </div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="13">(6) Arizona</div>
+    <div class="slot" data-col="1" data-game="13">(11) Belmont</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="14">(3) New Mexico</div>
+    <div class="slot" data-col="1" data-game="14">(14) Harvard</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="15">(7) Notre Dame</div>
+    <div class="slot" data-col="1" data-game="15">(10) Iowa St</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="1" data-game="16">(2) Ohio St</div>
+    <div class="slot" data-col="1" data-game="16">(15) Iona</div>  
+  </div>
+    
+  <div id="col2">
+    <div class="vliner">
+      <div class="slot c2" id="c2s1" data-col="2" data-game="1"></div>
+      <div class="slot c2" id="c2s2" data-col="2" data-game="1"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c2" id="c2s3" data-col="2" data-game="2"></div>
+      <div class="slot c2" id="c2s4" data-col="2" data-game="2"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c2" id="c2s5" data-col="2" data-game="3"></div>
+      <div class="slot c2" id="c2s6" data-col="2" data-game="3"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c2" id="c2s7" data-col="2" data-game="4"></div>
+      <div class="slot c2" id="c2s8" data-col="2" data-game="4"></div>
+    </div>
+
+    <div class="spacer2"></div>
+
+    <div class="vliner">
+      <div class="slot c2" id="c2s9" data-col="2" data-game="5"></div>
+      <div class="slot c2" id="c2s10" data-col="2" data-game="5"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c2" id="c2s11" data-col="2" data-game="6"></div>
+      <div class="slot c2" id="c2s12" data-col="2" data-game="6"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c2" id="c2s13" data-col="2" data-game="7"></div>
+      <div class="slot c2" id="c2s14" data-col="2" data-game="7"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c2" id="c2s15" data-col="2" data-game="8"></div>
+      <div class="slot c2" id="c2s16" data-col="2" data-game="8"></div>
+    </div>
+  </div>
+
+  <div id="col3">
+    <div class="vliner">
+      <div class="slot c3" id="c3s1" data-col="3" data-game="1"></div>
+      <div class="slot c3" id="c3s2" data-col="3" data-game="1"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c3" id="c3s3" data-col="3" data-game="2"></div>
+      <div class="slot c3" id="c3s4" data-col="3" data-game="2"></div>
+    </div>
+    
+    <div class="vliner">
+      <div class="slot c3b" id="c3s5" data-col="3" data-game="3"></div>
+      <div class="slot c3b" id="c3s6" data-col="3" data-game="3"></div>
+    </div>
+    <div class="vliner">
+      <div class="slot c3b" id="c3s7" data-col="3" data-game="4"></div>
+      <div class="slot c3b" id="c3s8" data-col="3" data-game="4"></div>
+    </div>
+
+  </div>
+
+  <div id="col4">
+    <div class="vliner">
+      <div class="slot c4" id="c4s1" data-col="4" data-game="1"></div>
+      <div class="slot c4" id="c4s2" data-col="4" data-game="1"></div>
+    </div>
+    <div class="spacer15"></div>
+    <div class="vliner">
+      <div class="slot c4" id="c4s3" data-col="4" data-game="2"></div>
+      <div class="slot c4" id="c4s4" data-col="4" data-game="2"></div>
+    </div>
+  </div>
+
+  <div id="col5">
+    <div class="slot c5" id="c5s1" data-col="5" data-game="1"></div>
+    <div class="spacer180"></div>
+    <div class="slot c5" id="c5s2" data-col="5" data-game="2"></div>
+  </div>
+
+  <div id="col6">
+    <div id="vlinec">
+      <div class="slot c6" id="c6s1" data-col="6" data-game="1"></div>
+      <div class="slot c6 winner" id="c6s0" data-col="6" data-game="0"></div>
+      <div class="slot c6" id="c6s2" data-col="6" data-game="2"></div>
+    </div>
+  </div>
+
+  <div id="col7">
+    <div class="slot c7" id="c7s1" data-col="7" data-game="1"></div>
+    <div class="spacer180"></div>
+    <div class="slot c7" id="c7s2" data-col="7" data-game="2"></div>
+  </div>
+
+  <div id="col8">
+    <div class="vlinel">
+      <div class="slot c8" id="c8s1" data-col="8" data-game="1"></div>
+      <div class="slot c8" id="c8s2" data-col="8" data-game="1"></div>
+    </div>
+    <div class="spacer15"></div>
+    <div class="vlinel">
+      <div class="slot c8" id="c8s3" data-col="8" data-game="2"></div>
+      <div class="slot c8" id="c8s4" data-col="8" data-game="2"></div>
+    </div>
+  </div>
+
+  <div id="col9">
+    <div class="vlinel">
+      <div class="slot c9" id="c9s1" data-col="9" data-game="1"></div>
+      <div class="slot c9" id="c9s2" data-col="9" data-game="1"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c9" id="c9s3" data-col="9" data-game="2"></div>
+      <div class="slot c9" id="c9s4" data-col="9" data-game="2"></div>
+    </div>
+
+    <div class="vlinel">
+      <div class="slot c9b" id="c9s5" data-col="9" data-game="3"></div>
+      <div class="slot c9b" id="c9s6" data-col="9" data-game="3"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c9b" id="c9s7" data-col="9" data-game="4"></div>
+      <div class="slot c9b" id="c9s8" data-col="9" data-game="4"></div>
+    </div>
+  </div>
+
+  <div id="col10">
+    <div class="vlinel">
+      <div class="slot c10" id="c10s1" data-col="10" data-game="1"></div>
+      <div class="slot c10" id="c10s2" data-col="10" data-game="1"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c10" id="c10s3" data-col="10" data-game="2"></div>
+      <div class="slot c10" id="c10s4" data-col="10" data-game="2"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c10" id="c10s5" data-col="10" data-game="3"></div>
+      <div class="slot c10" id="c10s6" data-col="10" data-game="3"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c10" id="c10s7" data-col="10" data-game="4"></div>
+      <div class="slot c10" id="c10s8" data-col="10" data-game="4"></div>
+    </div>
+
+    <div class="spacer2"></div>
+
+    <div class="vlinel">
+      <div class="slot c10" id="c10s9" data-col="10" data-game="5"></div>
+      <div class="slot c10" id="c10s10" data-col="10" data-game="5"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c10" id="c10s11" data-col="10" data-game="6"></div>
+      <div class="slot c10" id="c10s12" data-col="10" data-game="6"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c10" id="c10s13" data-col="10" data-game="7"></div>
+      <div class="slot c10" id="c10s14" data-col="10" data-game="7"></div>
+    </div>
+    <div class="vlinel">
+      <div class="slot c10" id="c10s15" data-col="10" data-game="8"></div>
+      <div class="slot c10" id="c10s16" data-col="10" data-game="8"></div>
+    </div>
+  </div>
+
+  <div id="col11">
+    <div class="slot" data-col="11" data-game="1">(1) Kansas</div>
+    <div class="slot" data-col="11" data-game="1">(16) WKU</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="2">(8) UNC</div>
+    <div class="slot" data-col="11" data-game="2">(9) Villanova</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="3">(5) VCU</div>
+    <div class="slot" data-col="11" data-game="3">(12) Akron</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="4">(4) Michigan</div>
+    <div class="slot" data-col="11" data-game="4">(13) S Dak St</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="5">(6) UCLA</div>
+    <div class="slot" data-col="11" data-game="5">(11) Minnesota</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="6">(3) Florida</div>
+    <div class="slot" data-col="11" data-game="6">(14) NW St</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="7">(7) SDSU</div>
+    <div class="slot" data-col="11" data-game="7">(10) Oklahoma</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="8">(2) Georgetown</div>
+    <div class="slot" data-col="11" data-game="8">(15) FGCU</div>
+    
+
+    <div class="spacer15"></div>
+
+    <div class="slot" data-col="11" data-game="9">(1) Indiana</div>
+    <div class="slot" id="ff4" data-col="11" data-game="9">(16) JMU</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="10">(8) NC State</div>
+    <div class="slot" data-col="11" data-game="10">(9) Temple</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="11">(5) UNLV</div>
+    <div class="slot" data-col="11" data-game="11">(12) California</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="12">(4) Syracuse</div>
+    <div class="slot" data-col="11" data-game="12">(13) Montana</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="13">(6) Butler</div>
+    <div class="slot" data-col="11" data-game="13">(11) Bucknell</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="14">(3) Marquette</div>
+    <div class="slot" data-col="11" data-game="14">(14) Davidson</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="15">(7) Illinois</div>
+    <div class="slot" data-col="11" data-game="15">(10) Colorado</div>
+    <hr align="left"/>
+
+    <div class="slot" data-col="11" data-game="16">(2) Miami</div>
+    <div class="slot" data-col="11" data-game="16">(15) Pacific</div> 
+  </div>
+
+  <div style="clear:both"></div>
+  <div id="firstfour">
+    <p class="title">The First Four</p>
+    
+    <div class="ffmodule" style="margin-left: 50px">
+      <p class="subtitle">Midwest 16 Seed</p>
+      <div class="ffcol1">
+        <div class="slotnohover" data-col="12" data-game="1">(16) NC A&T</div>
+        <div class="slotnohover" data-col="12" data-game="1">(16) Liberty</div>
+      </div>
+      <div class="ffcol2">
+        <div class="slotnohover" id="c12s1">(16) NC A&T</div>
+      </div>
+    </div>
+
+    <div class="ffmodule">
+      <p class="subtitle">Midwest 11 Seed</p>
+      <div class="ffcol1">
+        <div class="slotnohover" data-col="13" data-game="2">(11) MTSU</div>
+        <div class="slotnohover" data-col="13" data-game="2">(11) St. Mary's</div>
+      </div>
+      <div class="ffcol2">
+        <div class="slotnohover" id="c13s2">(11) St. Mary's</div>
+      </div>
+    </div>
+
+    <div class="ffmodule">
+      <p class="subtitle">West 13 Seed</p>
+      <div class="ffcol1">
+        <div class="slotnohover" data-col="14" data-game="3">(13) Boise State</div>
+        <div class="slotnohover" data-col="14" data-game="3">(13) LaSalle</div>
+      </div>
+      <div class="ffcol2">
+        <div class="slotnohover" id="c14s3">(13) LaSalle</div>
+      </div>
+    </div>
+
+    <div class="ffmodule" style="border-right: none">
+      <p class="subtitle">East 16 Seed</p>
+      <div class="ffcol1">
+        <div class="slotnohover" data-col="15" data-game="4">(16) LIU-Brook</div>
+        <div class="slotnohover" data-col="15" data-game="4">(16) JMU</div>
+      </div>
+      <div class="ffcol2">
+        <div class="slotnohover" id="c15s4">(16) JMU</div>
+      </div>
+    </div>
+
+  </div>
+  
+  <script src="http://data.digitalfirstmedia.com/ncaa2013/bracketadvisor/js/bracket.js"></script>
+
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37303540-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
+
+
+</html>

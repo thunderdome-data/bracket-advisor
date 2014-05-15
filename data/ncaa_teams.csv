@@ -1,0 +1,69 @@
+team_id,year,seed,team,team_med,team_short,logo_url,logo_name,conf,wins,losses,win_percent,record,berth,rpi,reb_mar,scr_mar,turnover,twitter
+1,2014,16,Albany,Albany,Albany,http://content.sportslogos.net/logos/30/818/full/6xphr3em,albany.png,American East,18,14,56.2,18-14,Auto,211,3.2,2.0,12.7,@UAlbanySports
+2,2014,15,American,American,American,http://content.sportslogos.net/logos/30/601/full/c6bcevlq,american.png,Patriot League,20,12,62.5,20-12,Auto,120,1.0,5.3,14.0,@AUeagles
+3,2014,1,Arizona,Arizona,Arizona,http://content.sportslogos.net/logos/30/603/full/2416.png,arizona.png,Pac-12,30,4,88.2,30-4,At-Large,1,8.3,15.3,10.5,@AZATHLETICS
+4,2014,10,Arizona State,Arizona St.,ASU,http://content.sportslogos.net/logos/30/604/full/9059_ari,asu.png,Pac-12,21,11,65.6,21-11,At-Large,38,-2.5,6.2,11.5,@SunDevilHoops
+5,2014,6,Baylor,Baylor,Baylor,http://content.sportslogos.net/logos/30/613/full/7369.png,baylor.png,Big 12,24,11,68.5,24-11,At-Large,36,7.5,7.0,12.1,@BaylorMBB
+6,2014,10,BYU,BYU,BYU,http://content.sportslogos.net/logos/30/622/full/t2k7w98w,byu.png,West Coast,23,11,67.6,23-11,At-Large,31,5.4,7.2,11.4,@byubasketball
+7,2014,16,Cal Poly,Cal Poly,Cal Poly,http://content.sportslogos.net/logos/30/626/full/0rm8n36c,calpoly.png,Big West,13,19,38.2,13-19,Auto,208,-0.9,-0.4,9.1,@CPMustangs
+8,2014,5,Cincinnati,Cincinnati,Cincy,http://content.sportslogos.net/logos/30/642/full/7482.png,cincy.png,AAC,27,6,81.8,27-6,At-Large,14,4.5,10.8,11.2,@GoBEARCATS
+9,2014,16,Coastal Carolina,CCU,CCU,http://content.sportslogos.net/logos/30/645/full/2453.png,ccu.png,Big South,21,12,63.6,21-12,Auto,200,4.9,4.3,14.1,@GoCCUsports
+10,2014,8,Colorado,Colorado,Coloardo,http://content.sportslogos.net/logos/30/647/full/7489.png,colorado.png,Pac-12,23,11,67.6,23-11,At-Large,32,6.9,3.6,13.3,@CUBuffsMBB
+11,2014,7,Connecticut,UConn,UConn,http://content.sportslogos.net/logos/35/884/full/9122_uco,uconn.png,AAC,26,8,76.4,26-8,At-Large,28,0.7,9.5,11.5,@UConnMBB
+12,2014,3,Creighton,Creighton,Creighton,http://content.sportslogos.net/logos/30/652/full/2796_cre,creighton.png,Big East,26,7,78.7,26-7,Auto,7,3.0,12.9,10.0,@BluejayMBB
+13,2014,11,Dayton,Dayton,Dayton,http://content.sportslogos.net/logos/31/655/full/6867.gif,dayton.png,Atlantic 10,23,10,69.6,23-10,At-Large,39,4.3,6.0,12.2,@DaytonMBB
+14,2014,13,Delaware,Delaware,Delaware,http://content.sportslogos.net/logos/31/657/full/8shlr22s,delaware.png,CAA,25,9,73.5,25-9,Auto,70,-2.4,4.4,9.6,@UDBlueHens
+15,2014,3,Duke,Duke,Duke,http://content.sportslogos.net/logos/31/663/full/2469.gif,duke.png,ACC,26,8,76.4,26-8,At-Large,8,1.9,12.7,9.8,@Duke_MBB
+16,2014,15,Eastern Kentucky,E. Kentucky,EKU,http://content.sportslogos.net/logos/31/668/full/sf4fgm5x,eku.png,Ohio Valley,24,9,72.7,24-9,Auto,102,-6.1,8.4,10.7,@EKUSports
+17,2014,1,Florida,Florida,Florida,http://content.sportslogos.net/logos/31/675/full/be5cf8el,florida.png,SEC,32,2,94.1,32-2,Auto,2,5.3,13.0,11.3,@GatorZoneNews
+18,2014,9,George Washington,GWash,GWash,http://content.sportslogos.net/logos/31/685/full/5968_geo,gwash.png,Atlantic 10,24,8,75.0,24-8,At-Large,30,4.1,7.3,12.8,@GW_MBB
+19,2014,8,Gonzaga,Gonzaga,Gonzaga,http://content.sportslogos.net/logos/31/691/full/pxl1fzxr,gonzaga.png,West Coast,28,6,82.3,28-6,Auto,16,3.1,11.9,11.3,@ZagMBB
+20,2014,12,Harvard,Harvard,Harvard,http://content.sportslogos.net/logos/31/695/full/afpnmfyx,harvard.png,Ivy League,26,4,86.8,26-4,Auto,50,3.0,13.1,11.4,@hoopsatharvard
+21,2014,11,Iowa,Iowa,Iowa,http://content.sportslogos.net/logos/32/712/full/1875_iow,iowa.png,Big Ten,20,12,62.5,20-12,At-Large,48,7.4,11.9,11.4,@IowaHoops
+22,2014,3,Iowa State,Iowa St,Iowa St,http://content.sportslogos.net/logos/32/713/full/7w93rhfe,iowast.png,Big 12,26,7,78.7,26-7,Auto,11,1.2,8.9,10.5,@CycloneMBB
+23,2014,2,Kansas,Kansas,Kansas,http://content.sportslogos.net/logos/32/718/full/t96oee4d,kansas.png,Big 12,24,9,72.7,24-9,At-Large,3,7.4,9.8,13.2,@KUHoops
+24,2014,9,Kansas State,Kansas St.,K-State,http://content.sportslogos.net/logos/32/719/full/2508.png,kstate.png,Big 12,20,12,62.5,20-12,At-Large,47,1.3,4.0,12.3,@kstatesports
+25,2014,8,Kentucky,Kentucky,Kentucky,http://content.sportslogos.net/logos/32/721/full/4897_ken,kentucky.png,SEC,24,10,70.5,24-10,At-Large,20,9.8,9.2,12.4,@KentuckyMBB
+26,2014,14,Louisiana-Lafayette,La Lafayette,Louisiana,http://content.sportslogos.net/logos/32/732/full/2511.png,louisiana.png,Sun Belt,23,11,67.6,23-11,Auto,98,2.9,6.6,13.9,@LafayetteHoops
+27,2014,4,Louisville,Louisville,Louisville,http://content.sportslogos.net/logos/32/734/full/7912_lou,louisville.png,AAC,29,5,85.2,29-5,Auto,21,3.2,21.3,10.5,@GoCards
+28,2014,13,Manhattan,Manhattan,Manhattan,http://content.sportslogos.net/logos/32/739/full/1773_man,manhattan.png,MAAC,25,7,78.1,25-7,Auto,60,1.2,7.5,14.2,@GoJaspers
+29,2014,6,Massachusetts,UMass,UMass,http://content.sportslogos.net/logos/32/887/full/cz3oe927,umass.png,Atlantic 10,24,8,75.0,24-8,At-Large,18,3.3,5.8,13.4,@UMassAthletics
+30,2014,8,Memphis,Memphis,Memphis,http://content.sportslogos.net/logos/32/746/full/pep4eclq,memphis.png,AAC,23,9,71.8,23-9,At-Large,29,2.7,7.2,13.5,@UofMTigersHoops
+31,2014,14,Mercer,Mercer,Mercer,http://content.sportslogos.net/logos/32/747/full/2533.gif,mercer.png,Atlantic Sun,26,8,76.4,26-8,Auto,80,5.2,12.9,11.9,@MercerMBB
+32,2014,2,Michigan,Michigan,Michigan,http://content.sportslogos.net/logos/32/750/full/7501_mic,michigan.png,Big Ten,25,8,75.7,25-8,At-Large,9,1.6,10.3,9.4,@umichbball
+33,2014,4,Michigan State,Mich. St.,MSU,http://content.sportslogos.net/logos/32/751/full/1597_mic,msu.png,Big Ten,26,8,76.4,26-8,Auto,25,4.6,10.4,11.6,@MSU_Basketball
+34,2014,16,Mount St. Mary's,Mt. St. Mary's,Mount,http://content.sportslogos.net/logos/32/763/full/q6hlsqgc,mount.png,Northeast,16,16,50.0,16-16,Auto,189,-4.2,-1.7,12.0,@MountHoops
+35,2014,11,Nebraska,Nebraska,Nebraska,http://content.sportslogos.net/logos/33/766/full/u5a0z147,nebraska.png,Big Ten,19,12,61.2,19-12,At-Large,41,-1.4,2.3,10.9,@HuskerHoops
+36,2014,7,New Mexico,New Mexico,N.M.,http://content.sportslogos.net/logos/33/769/full/ghyb25tv,unm.png,Mountain West,27,6,81.8,27-6,Auto,17,5.4,8.5,10.5,@UNMLOBOS
+37,2014,13,New Mexico State,New Mexico State,N.M. State,http://content.sportslogos.net/logos/33/770/full/5519_new,nmst.png,WAC,26,9,74.2,26-9,Auto,74,4.8,10.1,12.9,@NMStateAggies
+38,2014,6,North Carolina,N. Carolina,UNC,http://content.sportslogos.net/logos/33/775/full/2682.png,unc.png,ACC,23,9,71.8,23-9,At-Large,23,5.3,7.6,12.0,@UNC_Basketball
+39,2014,14,North Carolina Central,NC Central,NCCU,http://content.sportslogos.net/logos/33/5020/full/4479_nc,nccu.png,MEAC,28,5,84.8,28-5,Auto,110,3.4,15.4,11.6,@NCCUBasketball
+40,2014,12,North Carolina State,NC State,NC State,http://content.sportslogos.net/logos/33/777/full/5907_nor,ncstate.png,ACC,21,13,61.7,21-13,At-Large,55,-0.8,1.6,10.6,@PackMensBball
+41,2014,12,North Dakota State,NDSU,NDSU,http://content.sportslogos.net/logos/33/781/full/134_nort,ndsu.png,Summit League,25,6,80.6,25-6,Auto,35,4.6,11.0,9.8,@NDSUmbb
+42,2014,6,Ohio State,Ohio St.,Ohio St,http://content.sportslogos.net/logos/33/791/full/2ljfrxdh,ohiost.png,Big Ten,25,9,73.5,25-9,At-Large,24,-0.1,10.6,11.1,@OhioStateHoops
+43,2014,5,Oklahoma,Oklahoma,Oklahoma,http://content.sportslogos.net/logos/33/793/full/f9hclkzy,oklahoma.png,Big 12,23,9,71.8,23-9,At-Large,22,1.4,6.3,11.4,@OU_MBBall
+44,2014,9,Oklahoma State,Oklahoma St.,Ok State,http://content.sportslogos.net/logos/33/794/full/3pjgog0v,okst.png,Big 12,21,12,63.6,21-12,At-Large,40,-1.9,11.2,10.4,@OSUMBB
+45,2014,7,Oregon,Oregon,Oregon,http://content.sportslogos.net/logos/33/797/full/n0bre3gv,oregon.png,Pac-12,23,9,71.8,23-9,At-Large,26,1.3,7.8,11.7,@OregonMBB
+46,2014,9,Pittsburgh,Pittsburgh,Pitt,http://content.sportslogos.net/logos/33/803/full/wrvfcu5g,pitt.png,ACC,25,9,73.5,25-9,At-Large,44,6.4,10.7,10.5,@HailToPittHoops
+47,2014,11,Providence,Providence,Providence,http://content.sportslogos.net/logos/33/808/full/2etorchf,providence.png,Big East,23,11,67.6,23-11,Auto,54,3.8,3.5,11.8,@PCAthletics
+48,2014,10,Saint Joseph's,St. Joseph's,St Jo's,http://content.sportslogos.net/logos/34/851/full/2604.gif,stjos.png,Atlantic 10,24,9,72.7,24-9,Auto,42,2.9,3.9,12.5,@SJUHawks_MBB
+49,2014,5,Saint Louis,St. Louis,St. Louis,http://content.sportslogos.net/logos/34/822/full/ow7gk2za,stlouis.png,Atlantic 10,26,6,81.5,26-6,At-Large,19,1.6,9.2,12.6,@SaintLouisMBB
+50,2014,4,San Diego State,San Diego State,SDSU,http://content.sportslogos.net/logos/34/826/full/7666_san,sdsu.png,Mountain West,29,4,87.8,29-4,At-Large,15,5.4,14.8,10.1,@GoAztecs
+51,2014,10,Stanford,Stanford,Stanford,http://content.sportslogos.net/logos/34/854/full/5170_sta,stanford.png,Pac-12,21,12,63.6,21-12,At-Large,46,2.4,5.8,11.2,@stanfordbball
+52,2014,12,Stephen F. Austin,SFA,SFA,http://content.sportslogos.net/logos/34/856/full/9453_ste,sfa.png,southland,31,2,93.9,31-2,Auto,66,4.9,13.9,11.2,@SFA_Athletics
+53,2014,3,Syracuse,Syracuse,Syracuse,http://content.sportslogos.net/logos/34/859/full/lhf2fxwj,syracuse.png,ACC,27,5,84.3,27-5,At-Large,10,3.6,9.0,9.0,@Cuse
+54,2014,11,Tennessee,Tennessee,Tenn,http://content.sportslogos.net/logos/34/861/full/qp2k8zhw,tenn.png,SEC,21,12,63.6,21-12,At-Large,43,8.8,10.7,10.5,@Vol_Hoops
+55,2014,7,Texas,Texas,Texas,http://content.sportslogos.net/logos/34/865/full/5o2wuto6,texas.png,Big 12,23,10,69.6,23-10,At-Large,33,7.5,4.8,12.6,@TexasMBB
+56,2014,16,Texas Southern,Texas Southern,TX Southern,http://content.sportslogos.net/logos/34/869/full/4193_tex,txsouthern.png,SWAC,19,14,57.5,19-14,Auto,256,3.3,2.2,13.2,@TSUTigersMBB
+57,2014,13,Tulsa,Tulsa,Tulsa,http://content.sportslogos.net/logos/34/878/full/2669.png,tulsa.png,Conference USA,21,12,63.6,21-12,Auto,72,0.9,5.6,11.5,@TulsaMBasketball
+58,2014,4,UCLA,UCLA,UCLA,http://content.sportslogos.net/logos/35/882/full/f14dh4p8,ucla.png,Pac-12,26,8,76.4,26-8,Auto,27,1.9,10.8,10.6,@UCLAMBB
+59,2014,2,Villanova,Villanova,Villanova,http://content.sportslogos.net/logos/35/897/full/a28cvg37,villanova.png,Big East,28,4,87.5,28-4,At-Large,4,3.8,11.9,11.8,@NovaMBB
+60,2014,1,Virginia,Virginia,Virginia,http://content.sportslogos.net/logos/35/898/full/7135.png,virginia.png,ACC,28,6,82.3,28-6,Auto,12,6.5,10.9,10.2,@UVAMensHoops
+61,2014,5,Virginia Commonwealth,VCU,VCU,http://content.sportslogos.net/logos/35/899/full/2fikko05,vcu.png,Atlantic 10,26,8,76.4,26-8,At-Large,13,0.3,10.0,12.5,@VCUathletics
+62,2014,16,Weber State,Weber State,Weber State,http://content.sportslogos.net/logos/35/906/full/913_webe,weberstate.png,Big Sky,19,11,63.3,19-11,Auto,166,3.6,6.4,12.6,@WeberHoops
+63,2014,14,Western Michigan,Western Mich.,WMU,http://content.sportslogos.net/logos/35/910/full/4ch6nx0b,wmu.png,MAC,23,9,71.8,23-9,Auto,85,2.0,4.6,14.4,@WMUMBB
+64,2014,1,Wichita State,Wichita St.,Wich State,http://content.sportslogos.net/logos/35/911/full/4550_wic,wichst.png,MIssouri Valley,34,0,99.9,34-0,Auto,5,7.8,15.9,10.4,@WichitaStateMBB
+65,2014,2,Wisconsin,Wisconsin,Wisconsin,http://content.sportslogos.net/logos/35/914/full/ydl01hfj,wisconsin.png,Big Ten,26,7,78.7,26-7,At-Large,6,1.1,9.0,8.2,@BadgersMBB
+66,2014,15,Wisconsin-Milwaukee,UW-Milwaukee,Milwaukee,http://content.sportslogos.net/logos/35/915/full/2381_wis,milwaukee.png,Horizon League,21,13,61.7,21-13,Auto,129,-1.5,0.5,13.4,@MKE_MBB
+67,2014,15,Wofford,Wofford,Wofford,http://content.sportslogos.net/logos/35/916/full/m81425le,wofford.png,Southern,20,12,62.5,20-12,Auto,154,1.5,5.3,10.7,@WoffordMBB
+68,2014,12,Xavier,Xavier,Xavier,http://content.sportslogos.net/logos/35/919/full/xgodx5ew,xavier.png,Big East,21,12,63.6,21-12,At-Large,49,4.4,4.7,12.6,@VictoryParkway
