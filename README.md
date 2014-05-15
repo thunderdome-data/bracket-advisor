@@ -1,7 +1,7 @@
-cinderella
+Bracket Advisor
 ==========
 
-March Madness Predictor
+March Madness Predictor | General Predictor App
 
 /*******************************************************************************
 project name: Bracket Advisor
@@ -28,9 +28,9 @@ Relevant code files:
 		overview: captures user's team selections in tables sports.ncaa_topmatchups and sports.ncaa_topteams for use in generating leaderboard.
 	csvoutput.php
 		overview: generates two csv files (data/top_matchups.csv and data/top_teams.csv) at 15-minute intervals from production database for use in the leaderboard. The csvs are generated on beta and then rsynced to production in a cron job.
-	hello.php
+	makepercentages.php
 		overview: generates the stats used to calculate the percentage win for the teams selected. The data is drawn from sports.ncaa_data (historical data) and sports.ncaa_teams (current team stats), the calculations are performed and then the percentages are inserted into sports.ncaa_percentages. sports.ncaa_percentages and sports.ncaa_teams are exported as .csv files (data/ncaa_percs.csv and data/ncaa_teams).
-		[note: this is done in MAMP on p. bustamante's computer. Future scripts will be re-written using mysqli connects]
+		[note: this is done in MAMP on p. bustamante's computer.]
 	
 	/*** data files ***/
 	data/ncaa_percs.csv   == used in win percent calculations
