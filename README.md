@@ -7,13 +7,13 @@ March Madness Predictor | General Predictor App
 
 project name: Bracket Advisor
 url: http://www.bracketadvisor.com
-pub date: March 2013
+pub dates: March 2013 and March 2014
 authors: Peggy Bustamante, Nelson Hsu, Bobbie Bonett
 
 overview:
 	Calculates the win probability for two teams selected using zero to eight stats selected and sorted by the user.
 	
-	This iteration (pub March 2013) is for NCAA tournament. The format could be used for any bracketed sports playoff.
+	This iteration is for NCAA tournament. The format could be used for any bracketed sports playoff.
 	
 	The flow of code:
 	On load, data is loaded from four csv files, the lefthand sortable stats are built dynamically (in specified order if from the URL), the two select menus of teams are dynamically generated (from ncaa_teams.csv) and the leaderboard is generated (from top_matchups.csv and top_teams.csv)
@@ -60,3 +60,7 @@ Relevant code files:
 
 *******************************************************************************/
 
+License
+----------
+
+This code is available under the MIT license. For more information, please see the LICENSE.txt file in this repo.
