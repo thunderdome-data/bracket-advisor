@@ -5,18 +5,13 @@ Bracket Advisor
 
 http://www.bracketadvisor.com
 
-Calculates the win probability for two teams selected using zero to eight stats selected and sorted by the user.
-	
-This iteration is for NCAA tournament. The format could be used for any bracketed sports playoff.
-
-pub dates: March 2013 and March 2014
-
-authors: Peggy Bustamante, Nelson Hsu, Bobbie Bonett
-
+Calculates the win probability for two teams selected using zero to eight stats selected and sorted by the user. This ran in 2013 and 2014, and this iteration is for the 2014 NCAA tournament. The format could be used for any bracketed sports playoff.
 
 ![KU v. K-State](screenshots/ba.png)
 
-	
+##Credits
+Peggy Bustamante, Nelson Hsu, Bobby Bonett
+
 ##The flow of code
 On load, data is loaded from four csv files, the lefthand sortable stats are built dynamically (in specified order if from the URL), the two select menus of teams are dynamically generated (from ncaa_teams.csv) and the leaderboard is generated (from top_matchups.csv and top_teams.csv)
 
