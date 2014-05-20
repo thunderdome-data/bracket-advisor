@@ -3,16 +3,19 @@ Bracket Advisor
 
 ##March Madness Predictor | General Predictor App
 
-Bracket Advisor
 http://www.bracketadvisor.com
-pub dates: March 2013 and March 2014
-authors: Peggy Bustamante, Nelson Hsu, Bobbie Bonett
-
-![KU v. K-State](screenshots/ba.png)
 
 Calculates the win probability for two teams selected using zero to eight stats selected and sorted by the user.
 	
 This iteration is for NCAA tournament. The format could be used for any bracketed sports playoff.
+
+pub dates: March 2013 and March 2014
+
+authors: Peggy Bustamante, Nelson Hsu, Bobbie Bonett
+
+
+![KU v. K-State](screenshots/ba.png)
+
 	
 ##The flow of code
 On load, data is loaded from four csv files, the lefthand sortable stats are built dynamically (in specified order if from the URL), the two select menus of teams are dynamically generated (from ncaa_teams.csv) and the leaderboard is generated (from top_matchups.csv and top_teams.csv)
